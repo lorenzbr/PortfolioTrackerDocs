@@ -8,13 +8,13 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![Project Status: WIP – Initial development is in progress, but there
 has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
-[![R-CMD-check](https://github.com/lorenzbr/shinyPortfolioTracker/workflows/R-CMD-check/badge.svg)](https://github.com/lorenzbr/shinyPortfolioTracker/actions)
+[![R-CMD-check](https://github.com/lorenzbr/PortfolioTrackerDocs/workflows/R-CMD-check/badge.svg)](https://github.com/lorenzbr/PortfolioTrackerDocs/actions)
 <!-- badges: end -->
 
-Shiny App to track your personal investment portfolio. The goal of this
-app is to provide a complete and automated workflow from extracting
-relevant data from your bank statements to calculating the performance
-of your investments.
+App to track your personal investment portfolio. The goal of this tool
+is to provide a complete and automated workflow from extracting relevant
+data from your bank statements to calculating the performance of your
+investments.
 
 ## What does the PortfolioTracker do? (WIP)
 
@@ -32,14 +32,14 @@ in the box on the right hand side.
 statements from four different banks and brokers are included. See
 [here](https://github.com/lorenzbr/BankStatementParser#readme) for
 further information. For additional banks submit a suggestion via
-<https://github.com/lorenzbr/shinyPortfolioTracker/issues> and send an
+<https://github.com/lorenzbr/PortfolioTrackerDocs/issues> and send an
 anonymized PDF bank statement to my private address.
 
 **3. What are tickers?** Tickers are symbols for an investment such as
 stocks or funds and identifies the investment on a stock market. It is
 required to be able to access prices and volume data of an investment.
 
-**4. Why are some tickers missing?** The PortfolioTracker tries to
+**4. Why are some tickers missing?** The *Portfolio Tracker* tries to
 identify tickers based on the ISIN or WKN and searches for the
 corresponding ticker symbol on
 [Xetra](https://www.xetra.com/xetra-de/instrumente/alle-handelbaren-instrumente/boersefrankfurt).
@@ -56,7 +56,7 @@ you can upload the remaining transactions.
 
 **6. What happens if I upload the same PDF transaction several times?**
 As long as the file name of the PDF (and all other information in the
-PDF) is unique and unchanged, the *PortfolioTracker* considers such a
+PDF) is unique and unchanged, the *Portfolio Tracker* considers such a
 transaction as only one single transaction.
 
 ## Documentation (WIP)
@@ -75,10 +75,10 @@ further details.
 
 ## Tasks (WIP)
 
--   [ ] Portfolio performance
--   [ ] Portfolio statistics
+-   [x] Portfolio performance
+-   [x] Portfolio statistics
 -   [ ] Return on investment (portfolio + individual stocks)
--   [ ] Benchmark with MSCI World
+-   [ ] Benchmark with alternative investments (e.g. MSCI World)
 -   [ ] Dividends by stock/fund and compute dividend yield
 -   [ ] Documentation/vignette/help panel
 -   [ ] Watchlist
