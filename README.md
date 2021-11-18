@@ -1,5 +1,5 @@
 
-# shinyPortfolioTracker <a href=''><img src='inst/app/www/hex-PT.png' align="right" height="120" /></a>
+# Portfolio Tracker <a href=''><img src='inst/app/www/hex-PT.png' align="right" height="120" /></a>
 
 <!-- badges: start -->
 
