@@ -7,3 +7,6 @@
 ^pkgdown$
 ^dev$
 ^LICENSE\.md$
+^\.github$
+^README\.Rmd$
+^README\.html$

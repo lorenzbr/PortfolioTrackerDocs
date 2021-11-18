@@ -1,0 +1,26 @@
+---
+title: "Data Protection"
+description: >
+  Details on data protection measures
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Data Protection}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Credentials
+
+* User name: 
+* Password: hashed using the R package sodium
+
+Financial data
+
+* Transactions from PDFs (only transaction data is stored, see [here](https://github.com/lorenzbr/BankStatementParser) if you want to have look at the code)

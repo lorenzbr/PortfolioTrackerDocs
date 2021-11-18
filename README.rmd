@@ -7,7 +7,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-# Portfolio Tracker <a href=''><img src='inst/app/www/hex-PT.png' align="right" height="120" /></a>
+# Portfolio Tracker <a href=''><img src='man/figures/hex-PT.png' align="right" height="120" /></a>
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
@@ -25,7 +25,7 @@ App to track your personal investment portfolio. The goal of this tool is to pro
 
 ## Example (demo)
 
-![dashboard_example](./inst/app/www/PortfolioTracker_dashboard_demo.png)
+![dashboard_example](man/figures/PortfolioTracker_dashboard_demo.png)
 
 
 

@@ -1,5 +1,5 @@
 
-# Portfolio Tracker <a href=''><img src='inst/app/www/hex-PT.png' align="right" height="120" /></a>
+# Portfolio Tracker <a href=''><img src='man/figures/hex-PT.png' align="right" height="120" /></a>
 
 <!-- badges: start -->
 
@@ -20,7 +20,7 @@ investments.
 
 ## Example (demo)
 
-![dashboard_example](./inst/app/www/PortfolioTracker_dashboard_demo.png)
+![dashboard_example](man/figures/PortfolioTracker_dashboard_demo.png)
 
 ## Help (WIP)
 

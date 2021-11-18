@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Changelog • PortfolioTrackerDocs</title>
+<title>Details on nine transactions extracted from bank statements — transactions • PortfolioTrackerDocs</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,9 @@
 
 
 
-<meta property="og:title" content="Changelog" />
+<meta property="og:title" content="Details on nine transactions extracted from bank statements — transactions" />
+<meta property="og:description" content="A data set containing details on four transactions extracted from PDF bank statements.
+The variables are as follows:" />
 
 
 
@@ -58,7 +60,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-news">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -128,25 +130,47 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1 data-toc-skip>Changelog <small></small></h1>
-      <small>Source: <a href='https://github.com/lorenzbr/PortfolioTrackerDocs/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
+    <h1>Details on nine transactions extracted from bank statements</h1>
+    <small class="dont-index">Source: <a href='https://github.com/lorenzbr/PortfolioTrackerDocs/blob/master/R/data.R'><code>R/data.R</code></a></small>
+    <div class="hidden name"><code>transactions.Rd</code></div>
     </div>
 
-    <div id="portfoliotrackerdocs-0009000" class="section level1">
-<h1 class="page-header" data-toc-text="0.0.0.9000">
-<a href="#portfoliotrackerdocs-0009000" class="anchor"></a>PortfolioTrackerDocs 0.0.0.9000</h1>
-<ul>
-<li>Added a <code>NEWS.md</code> file to track changes to the package.</li>
-</ul>
-</div>
-  </div>
+    <div class="ref-description">
+    <p>A data set containing details on four transactions extracted from PDF bank statements.
+The variables are as follows:</p>
+    </div>
 
+    <pre class="usage"><span class='va'>transactions</span></pre>
+
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 4 rows and 12 columns/variables:</p><dl>
+<dt>isin</dt><dd><p>The identifier ISIN</p></dd>
+<dt>wkn</dt><dd><p>The identifier WKN</p></dd>
+<dt>name</dt><dd><p>Name of the investment</p></dd>
+<dt>quantity</dt><dd><p>Quantity/number of stocks.</p></dd>
+<dt>transaction_price</dt><dd><p>Price of the transaction.</p></dd>
+<dt>transaction_value</dt><dd><p>Value of the transaction (includes fees).</p></dd>
+<dt>transaction_fee</dt><dd><p>Fee of the transaction. Adds up all fees.</p></dd>
+<dt>transaction_date</dt><dd><p>Date of the tranaction.</p></dd>
+<dt>transaction_time</dt><dd><p>Time of the transaction.</p></dd>
+<dt>transaction_type</dt><dd><p>Type of the transaction (e.g., purchase, sale).</p></dd>
+<dt>document_page</dt><dd><p>Page of the transaction in the PDF document.</p></dd>
+<dt>document_name</dt><dd><p>Name of the PDF document.</p></dd>
+
+</dl>
+
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>The data come from the R package <code>BankStatementParser</code>. See <a href='https://github.com/lorenzbr/BankStatementParser'>https://github.com/lorenzbr/BankStatementParser</a></p>
+
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
     </nav>
   </div>
-
 </div>
 
 

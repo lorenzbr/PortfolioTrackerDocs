@@ -14,6 +14,4 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
-library(PortfolioTrackerDocs)
-```
+If you want to use the *Portfolio Tracker*, send me an email. I will send you the credentials for a test user account.
