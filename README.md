@@ -1,5 +1,5 @@
 
-# Portfolio Tracker <a href=''><img src='man/figures/hex-PT.png' align="right" height="120" /></a>
+# Documentation of the Portfolio Tracker <a href=''><img src='man/figures/hex-PT.png' align="right" height="120" /></a>
 
 <!-- badges: start -->
 
@@ -11,10 +11,10 @@ public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostat
 [![R-CMD-check](https://github.com/lorenzbr/PortfolioTrackerDocs/workflows/R-CMD-check/badge.svg)](https://github.com/lorenzbr/PortfolioTrackerDocs/actions)
 <!-- badges: end -->
 
-App to track your personal investment portfolio. The goal of this tool
-is to provide a complete and automated workflow from extracting relevant
-data from your bank statements to calculating the performance of your
-investments.
+This is the documentation of the Portfolio Tracker, an app to track your
+investment portfolio. The goal of this tool is to provide a complete and
+automated workflow from extracting relevant data from your bank
+statements to calculating the performance of your investments.
 
 ## What does the PortfolioTracker do? (WIP)
 
