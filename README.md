@@ -16,11 +16,11 @@ investment portfolio. The goal of this tool is to provide a complete and
 automated workflow from extracting relevant data from your bank
 statements to calculating the performance of your investments.
 
-## What does the PortfolioTracker do? (WIP)
+## What does the Portfolio Tracker do? (WIP)
 
 ## Example (demo)
 
-![dashboard_example](man/figures/PortfolioTracker_dashboard_demo.png)
+![dashboard_example](man/figures/portfoliotracker_dashboard_demo.png)
 
 ## Help (WIP)
 
