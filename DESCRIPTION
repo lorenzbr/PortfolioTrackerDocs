@@ -1,6 +1,6 @@
 Package: PortfolioTrackerDocs
 Type: Package
-Title: Tool to Track Your Investment Portfolio
+Title: Documentation of the Portfolio Tracker
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Lorenz",
@@ -8,7 +8,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "lorenz.brachtendorf@gmx.de",
            comment = c(ORCID = "0000-0001-7066-0838"))
-Description: Tool to track the performance of your investment portfolio. The goal is to provide a complete and     automated workflow from extracting relevant data from your bank statements to calculating the performance of your investments.
+Description: Documentation of the Portfolio Tracker. Tool to track the performance of your investment portfolio. The goal is to provide a complete and automated workflow from extracting relevant data from your bank statements to calculating the performance of your investments.
 License: GPL (>= 3) + file LICENSE
 Depends:
     R (>= 4.1.0)
