@@ -1,5 +1,5 @@
 
-# Documentation of the Portfolio Tracker <a href=''><img src='man/figures/hex-PT.png' align="right" height="120" /></a>
+# Documentation of the Portfolio Tracker <a href=''><img src='man/figures/hex-PT.png' align="right" height="120" style="float:right; height:120px;" /></a>
 
 <!-- badges: start -->
 

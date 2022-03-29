@@ -7,7 +7,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-# Documentation of the Portfolio Tracker <a href=''><img src='man/figures/hex-PT.png' align="right" height="120" /></a>
+# Documentation of the Portfolio Tracker <a href=''><img src='man/figures/hex-PT.png' align="right" height="120" style="float:right; height:120px;" /></a>
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
